@@ -1,6 +1,5 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    list-style: none;
 }
 
 img {
@@ -49,19 +48,60 @@ rt {
 }
 
 .section_img ul {
-    max-width:900px;
+    max-width:1200px;
     margin:0 auto;
     display:flex;
     justify-content: center;
 }
 
 .section_img {
-    background-color: #FFD6D6;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 25px;
 }
 
-.fadeinRight {
-    margin-top:10%;
+li{
+  width: 48%;
+  margin: 0 0 100px;
+  list-style: none;
 }
+img{
+  width: 100%;
+  height: auto;
+}
+.fadeInUp {
+  opacity : 0;
+  /* transform: translateY(100px); */
+  transform: translateX(-100px);
+  transition: 1.5s;
+}
+
+.fadeInUpright {
+  opacity : 0;
+  /* transform: translateY(100px); */
+  transform: translateX(100px);
+  transition: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 481px){
 h1 {
