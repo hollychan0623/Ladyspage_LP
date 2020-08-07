@@ -60,7 +60,8 @@ rt {
   /* max-width: 1200px; */
   margin: 0 auto;
   padding: 50px 25px;
-  background: linear-gradient(180deg, #ffffff 0%, #f0bc68 60%, #c4d7d1 40%, #c4d7d1 100%);
+  background: linear-gradient(180deg, #FFD6D6 0%, #FFD6D6 70%, #fff 50%, #fff 100%);
+  margin-bottom:20%;
 }
 
 li{
@@ -73,8 +74,7 @@ img{
   height: auto;
 }
 
-.fadeinup {
- 
+.fadeinslide {
 }
 
 .fadeInUpright {
@@ -91,6 +91,17 @@ img{
   transform: translateX(100px);
   transition: 1.5s;
   margin-right: -4.5%;
+}
+
+.items_pic{
+    max-width: 1020px;
+    display:flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+}
+
+.items_pic li {
+    width: calc(100% / 2 - 24px);
 }
 
 
