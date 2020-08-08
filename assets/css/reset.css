@@ -69,6 +69,8 @@ abbr[title] {
 
 a {
   background-color: transparent; /* Remove the gray background on active links in IE 10 */
+  text-decoration: none;
+  color:#000;
 }
 
 li {
@@ -78,6 +80,7 @@ li {
 a:active,
 a:hover {
   outline-width: 0; /* Remove the outline when hovering in all browsers */
+  opacity: 0.5 ;
 }
 
 code,

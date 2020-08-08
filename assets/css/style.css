@@ -119,6 +119,10 @@ img{
     margin-left: .4em;
 }
 
+.items {
+    display:none;
+}
+
 .items_pic{
     max-width: 1020px;
     display:flex;
@@ -141,6 +145,9 @@ img{
 
 .name {
     text-align: center;
+    font-size: 2em;
+    padding-top:20%;
+    color:#000;
 }
 
 

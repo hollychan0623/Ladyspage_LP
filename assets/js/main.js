@@ -41,3 +41,7 @@ $(function(){
       animation();
     });
   });
+
+ $(document). ready(function(){
+   $('.items').fadeIn(3000);
+ })
