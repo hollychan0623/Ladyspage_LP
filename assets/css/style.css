@@ -59,6 +59,11 @@ rt {
     font-weight: bold;
 }
 
+#gu {
+    font-family: 'Marcellus', serif;
+    font-size: 5.5em;
+}
+
 .section_img ul {
     margin:0 auto;
     display:flex;
@@ -132,7 +137,9 @@ img{
 }
 
 .items {
-    display:none;
+    opacity:.5;
+    transform: translateY(-50px);
+    transition: 2s;
 }
 
 .items_pic{
@@ -163,8 +170,9 @@ img{
 }
 
 .item_all_button_box {
-    margin:0 auto;
+    margin:5% auto 30%;
     width:350px;
+
     
 }
 
