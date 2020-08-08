@@ -47,6 +47,18 @@ rt {
     font-weight: bold;
 }
 
+#ch {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 5.5em;
+    font-weight: bold;
+}
+
+#her {
+    font-family: 'Sanchez', serif;
+    font-size: 5.5em;
+    font-weight: bold;
+}
+
 .section_img ul {
     margin:0 auto;
     display:flex;
@@ -157,17 +169,39 @@ img{
 }
 
 .item_all_button_box,.item_all_button_button {
-    padding: 20px;
+    padding: 10px;
     background-color: #555555;
     width: 40%;
     color: #fff;
-    font-size: 14px;
+    font-size: 1.2em;
     font-weight: bold;
     letter-spacing: 1.2px;
+    transition: all .3s;
 }
 
 .item_all_button_box:hover {
     opacity: .5;
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.seeitem {
+    text-align: center;
+    position:relative;
+}
+
+.seeitem::before{
+    content:"";
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:0;
+    right:10%;
+    margin: auto;
+    box-sizing:border-box;
+    border:15px solid transparent;
+    border-left:24px solid #fff;
 }
 
 
