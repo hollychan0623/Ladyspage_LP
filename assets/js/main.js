@@ -43,5 +43,5 @@ $(function(){
   });
 
  $(document). ready(function(){
-   $('.items').fadeIn(3000);
+   $('.items').fadeIn(1500);
  })

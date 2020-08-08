@@ -150,6 +150,25 @@ img{
     color:#000;
 }
 
+.item_all_button_box {
+    margin:0 auto;
+    width:350px;
+    
+}
+
+.item_all_button_box,.item_all_button_button {
+    padding: 20px;
+    background-color: #555555;
+    width: 40%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.item_all_button_box:hover {
+    opacity: .5;
+}
 
 
 
