@@ -148,12 +148,18 @@ span {/*各テキストにanimationを設定*/
 .section_img {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 50px 25px;
   background: linear-gradient(180deg, #FFD6D6 0%, #FFD6D6 70%, #fff 50%, #fff 100%);
   margin-bottom:10%;
+}
+
+#ch_sec {
+  background: linear-gradient(180deg, #feffd6 0%, #feffd6 70%, #fff 50%, #fff 100%);
+}
+
+#hel_sec {
+  background: linear-gradient(180deg, #d6e3ff 0%, #d6e3ff 70%, #fff 50%, #fff 100%);
 }
 
 li{
@@ -213,8 +219,8 @@ img{
 
 .items {
     opacity:.5;
-    transform: translateY(-50px);
-    transition: 4s;
+    transform: translateY(-150px);
+    transition: 1.5s;
 }
 
 .items_pic{
