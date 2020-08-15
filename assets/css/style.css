@@ -3,6 +3,11 @@ body {
     margin-bottom:10%;
 }
 
+h1 {
+  margin:0 auto 30px;
+  max-width: 1200px;
+}
+
 img {
     width: 100%; }
 
