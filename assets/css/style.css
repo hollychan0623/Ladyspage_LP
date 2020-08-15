@@ -1,5 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:10%;
 }
 
 img {
@@ -202,9 +203,9 @@ img{
 }
 .mainitem_name:before,.mainitem_name:after{
     content: "";
-	flex-grow: 1;
-	height: 1px;
-	background: #000;
+    flex-grow: 1;
+    height: 1px;
+    background: #000;
     display: block;
     width:50px;
 }
@@ -232,7 +233,8 @@ img{
 
 .items_pic li {
     width: calc(100% / 2 - 24px); 
-    padding:5% 0;  
+    padding:5% 0;
+   
 }
 
 .items_pic li:nth-child(odd) {
@@ -318,28 +320,73 @@ img{
 
 .wallet_pic li {
   width: calc(100% / 3 - 50px); 
-  padding:2%;  
+  padding:2%; 
+  margin:0 auto; 
 }
 
+.categories {
+  margin-bottom:20%;
+}
+
+/* iframe {
+  width:1500px;
+  height:2200px;
+  margin:0 20%;
+} */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 481px){
+@media (max-width: 1020px){
 h1 {
     margin-bottom: 60px;
     max-width:1200px;
     margin:0 auto;
    }
+   .title_name {
+    font-size:3em;
+  }
+  
+  .des {
+    font-size:1em;
+  }
+  
+  #lv,#ch,#her,#gu {
+    font-size:2.5em;
+  }
+  
+  .brandphrase {
+    font-size:1em;
+  }
+  
+  .fadeInUpright {
+    margin-top:0%;
+  }
+  
+  li {
+    margin: 0 0 30px;
+  }
+  
+  .mainitem_name {
+    font-size:2.5em;
+  }
+  
+  .mainitem {
+    text-align: center;
+    margin: 0 10% 15%;
+  }
+  
+  .name {
+    font-size:1em;
+  }
+  .items_pic{
+    margin-left:10%;
+  }
+  .item_all_button_box, .item_all_button_button{
+    font-size:1em;
+    padding:0 10px;
+  }
+  .seeitem::before {
+   display:none;
+  }
 }
