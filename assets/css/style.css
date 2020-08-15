@@ -217,9 +217,9 @@ img{
     margin-left: .4em;
 }
 
-.items {
+.items,.wallet_items{
     opacity:.5;
-    transform: translateY(-150px);
+    transform: translateY(150px);
     transition: 1.5s;
 }
 
@@ -250,12 +250,11 @@ img{
     color:#000;
 }
 
-.item_all_button_box {
+.item_all_button_box{
     margin:5% auto 30%;
     width:350px;
-
-    
 }
+
 
 .item_all_button_box,.item_all_button_button {
     padding: 10px;
@@ -305,7 +304,23 @@ img{
     overflow: hidden;
     transform: translateY(-50%);    
 }
- 
+
+#last_button {
+  margin-bottom:20%;
+}
+
+.wallet_pic{
+  max-width: 1500px;
+  display:flex;
+  flex-wrap:wrap;
+  margin: 0 auto;
+}
+
+.wallet_pic li {
+  width: calc(100% / 3 - 50px); 
+  padding:2%;  
+}
+
 
 
 
