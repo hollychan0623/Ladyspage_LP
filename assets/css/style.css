@@ -146,6 +146,10 @@ span {/*各テキストにanimationを設定*/
     font-size: 5.5em;
 }
 
+#pra{
+  
+}
+
 .section_img ul {
     margin:0 auto;
     display:flex;
