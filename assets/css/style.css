@@ -141,7 +141,7 @@ span {/*各テキストにanimationを設定*/
     font-weight: bold;
 }
 
-#gu {
+#gu,#ot {
     font-family: 'Marcellus', serif;
     font-size: 5.5em;
 }
@@ -239,11 +239,13 @@ img{
     display:flex;
     flex-wrap:wrap;
     margin: 0 auto;
+   
 }
 
 .items_pic li {
     width: calc(100% / 2 - 24px); 
     padding:5% 0;
+  
    
 }
 
@@ -332,6 +334,7 @@ img{
   width: calc(100% / 3 - 50px); 
   padding:2%; 
   margin:0 auto; 
+  justify-content: flex-start;
 }
 
 .categories {
