@@ -37,6 +37,7 @@ rt {
 .rubi {
     font-weight: bold;
     margin-top:5%;
+    font-size: 1.2em;
 }
 
 .brand_name {
@@ -143,6 +144,10 @@ span {/*各テキストにanimationを設定*/
 #gu,#ot {
     font-family: 'Marcellus', serif;
     font-size: 5.5em;
+}
+
+#pra{
+  
 }
 
 .section_img ul {
