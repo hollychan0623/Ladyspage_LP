@@ -101,12 +101,3 @@ $(function() {
       newEL.animate({ opacity: 1 }, 2000);
   });
 });
-
-// ハンバーガーメニューOPEN
-(function($) {
-  $(function () {
-    $('#nav-toggle').on('click', function() {
-      $('.wrap').toggleClass('open');
-    });
-  });
-})(jQuery);
