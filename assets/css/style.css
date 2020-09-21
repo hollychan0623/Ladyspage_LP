@@ -97,7 +97,7 @@ nav {
   font-size: 1.5em;
   opacity: 0.8;
   transition: opacity 0.6s ease, visibility 0.6s ease;
-  width:40%;
+  width:20%;
   overflow: auto;
  -webkit-overflow-scrolling: touch;
 }
@@ -198,6 +198,12 @@ img {
     font-style:italic;
 }
 
+.small_mainitem{
+  font-family: 'Sriracha', cursive;
+  font-size:2em;
+  font-weight: bold;
+  font-style:italic;
+}
 rt {
     font-size:1.3em;
 }
@@ -221,6 +227,10 @@ rt {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     width:80%;
+}
+
+#small {
+  margin:10% auto 0% auto;
 }
 
 
@@ -355,7 +365,7 @@ img{
     width: calc(100% / 3);  
     margin:0 auto; 
     justify-content: flex-start;
-    padding: 8% 2%;
+    padding: 3% 2%;
 }
 
 .name {
@@ -366,7 +376,7 @@ img{
 }
 
 .item_all_button_box{
-    margin:20% auto;
+    margin:10% auto;
     width:350px;
 }
 
@@ -400,7 +410,7 @@ img{
     height:30px;
     position:absolute;
     top:0;
-    right:10%;
+    right:2%;
     margin: auto;
     box-sizing:border-box;
     border:15px solid transparent;
@@ -423,6 +433,30 @@ img{
 #last_button {
   margin-bottom:20%;
 }
+
+.small_mainitem {
+  display: flex;
+  align-items: center;
+  width:800px;
+  margin:0 auto;
+}
+.small_mainitem:before,.small_mainitem:after{
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background: #000;
+  display: block;
+  width:30px;
+}
+
+.small_mainitem:before {
+  margin-right: .4em;
+}
+
+.small_mainitem:after {
+  margin-left: .4em;
+}
+
 
 .other_pic{
   display:flex;
@@ -525,7 +559,7 @@ h1 {
   }
   
   #lv,#ch,#her,#gu,#main {
-    font-size:2.5em;
+    font-size:2em;
   }
 
   .section_img{
@@ -548,8 +582,8 @@ h1 {
     margin: 0 0 30px;
   }
   
-  .mainitem_name {
-    font-size:2em;
+  .mainitem_name,.small_mainitem {
+    font-size:1.5em;
   }
   
   .mainitem {
@@ -560,13 +594,23 @@ h1 {
   .name {
     font-size:1em;
   }
+
   .item_all_button_box, .item_all_button_button{
     font-size:1em;
     padding:0 10px;
   }
+
   .seeitem::before {
    display:none;
   }
+
+  .small_mainitem {
+    display: flex;
+    align-items: center;
+    width:300px;
+    margin:0 auto;
+  }
+
 
     /* iframePC版フッター非表示 */
     #pc_footerframe {
