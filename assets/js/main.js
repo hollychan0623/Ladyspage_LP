@@ -100,4 +100,17 @@ $(function() {
       newEL.delay(idx * 100);
       newEL.animate({ opacity: 1 }, 2000);
   });
+<<<<<<< HEAD
 });
+=======
+});
+
+// ハンバーガーメニューOPEN
+(function($) {
+  $(function () {
+    $('#nav-toggle').on('click', function() {
+      $('.wrap').toggleClass('open');
+    });
+  });
+})(jQuery);
+>>>>>>> first_branch
