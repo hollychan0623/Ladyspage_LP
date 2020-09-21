@@ -100,6 +100,9 @@ $(function() {
       newEL.delay(idx * 100);
       newEL.animate({ opacity: 1 }, 2000);
   });
+<<<<<<< HEAD
+});
+=======
 });
 
 // ハンバーガーメニューOPEN
@@ -110,3 +113,4 @@ $(function() {
     });
   });
 })(jQuery);
+>>>>>>> first_branch
