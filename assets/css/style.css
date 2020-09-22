@@ -67,7 +67,7 @@ h1 {
 }
 
 nav {
-  padding-top: 100px;
+  padding-top: 300px;
 }
 
 /* z-index */
@@ -281,16 +281,21 @@ rt {
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 50px 25px;
-  background: linear-gradient(180deg, #FFD6D6 0%, #FFD6D6 70%, #fff 50%, #fff 100%);
+  background: linear-gradient(180deg, #FFD6D6 0%, #fff1d6 70%, #fff 50%, #fff 100%);
 }
 
 #ch_sec {
-  background: linear-gradient(180deg, #feffd6 0%, #feffd6 70%, #fff 50%, #fff 100%);
+  background: linear-gradient(180deg, #feffd6 0%, #fffff7 70%, #fff 50%, #fff 100%);
 }
 
 #hel_sec {
-  background: linear-gradient(180deg, #d6e3ff 0%, #d6e3ff 70%, #fff 50%, #fff 100%);
+  background: linear-gradient(180deg, #d6e3ff 0%, #cdfffd 70%, #fff 50%, #fff 100%);
 }
+
+#gu_sec{
+  background: linear-gradient(180deg, #dbffd6 0%, #d6e3ff 70%, #fff 50%, #fff 100%);
+}
+
 
 li{
   width: 100%;
