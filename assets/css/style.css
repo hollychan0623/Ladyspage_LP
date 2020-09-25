@@ -544,12 +544,14 @@ img{
   position: fixed;
   bottom: 50px;
   right: 100px;
-  font-size: 77%;
+  font-size: 85%;
 }
 #page-top a {
-  background: linear-gradient(180deg, #d6e3ff 0%, #cdfffd 70%, #fff 50%, #fff 100%);
+  background: #ec008c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-decoration: none;
-  color: #000;
+  color: #fff;
   width: 100px;
   padding: 30px 0;
   text-align: center;
@@ -558,8 +560,9 @@ img{
 }
 #page-top a:hover {
   text-decoration: none;
-  background: linear-gradient(180deg, #d6e3ff 0%, #cdfffd 70%, #fff 50%, #fff 100%);
-
+  background: #ec008c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -635,6 +638,19 @@ h1 {
     align-items: center;
     width:300px;
     margin:0 auto;
+  }
+
+  #page-top {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    font-size: 75%;
+  }
+
+  #page-top a {
+    width:70px;
+    height:70px;
+    border-radius: 50%;
   }
 
 
